@@ -3,18 +3,19 @@
     <channel>
         <title>SpkDraft</title>
         <item>
-            <title>0.17.11</title>
-            <pubDate>Fri, 05 Sep 2026 11:49:00 +0100</pubDate>
-            <sparkle:version>43</sparkle:version>
-            <sparkle:shortVersionString>0.17.11</sparkle:shortVersionString>
+            <title>0.17.12</title>
+            <pubDate>Fri, 05 Sep 2026 22:50:00 +0100</pubDate>
+            <sparkle:version>44</sparkle:version>
+            <sparkle:shortVersionString>0.17.12</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <description><![CDATA[
-                <p><b>Clean keeps more of its polish.</b> The guard that refuses any word you didn't say was also refusing your own words in different clothes: say "three terms" and the transcriber writes "3 terms", so when the cleanup wrote the word back it looked invented and the whole polish was thrown away. Numbers you spoke, contractions of words you said side by side ("I would" as "I'd") and ordinary tense shifts now count as your words. Anything actually invented is still refused — in a week of live use that included a made-up "gift card" and a corrupted "scammed", both correctly kept out.</p>
-                <p><b>Bigger dictionaries.</b> The Landlord pack now knows OpenRent, Inventory Hive, Octopus Energy, Screwfix and skirting board, and fixes their split or lowercase spellings; the Business pack adds giffgaff, which also stops "gift gaff" appearing in your text.</p>
-                <p><b>Missed a release?</b> 0.17.10 drew the off switches in Settings into the same cyan-to-pink ramp as the on ones. 0.17.9 added Redraft what you just said: Control+Option+R with nothing selected rewrites your last dictation in Draft, right where it landed, and Control+Option+Z puts your own words back. 0.17.8 made the app dictate through your Mac's own microphone and added a Microphone row in Settings with a live level bar. Every release, in order: github.com/romeo-golf-software/dictation-releases/releases.</p>
+                <p><b>A second chance for pause-broken sentences.</b> When Clean's polish is refused by the guards, it now retries once on your words without the transcriber's punctuation — so a pause that was stamped as a full stop gets read again as the sentence you meant. Measured on a week of real dictation first: a third of refused passes came back good, every one checked by hand, and the guards still judge everything against your original words.</p>
+                <p><b>A Permaculture dictionary.</b> Organic growing, regenerative farming and community food vocabulary — polytunnels, herbal leys, no-dig beds, the Soil Association and friends — spelled properly out of the box. A red tractor stays a red tractor.</p>
+                <p><b>Updates check by default.</b> New installs now check for updates daily without asking first; the switch to turn that off is in Settings, as ever. The check fetches the update feed only — nothing identifies your machine.</p>
+                <p><b>Missed a release?</b> 0.17.11 taught the cleanup guard that "three" is the word you said when the transcriber wrote "3", so more of the polish it was already doing now sticks, and grew the Landlord and Business dictionaries. 0.17.10 drew the off switches in Settings into the same cyan-to-pink ramp as the on ones. 0.17.9 added Redraft what you just said: Control+Option+R rewrites your last dictation in place, Control+Option+Z puts your own words back. Every release, in order: github.com/romeo-golf-software/dictation-releases/releases.</p>
             ]]></description>
             <sparkle:fullReleaseNotesLink>https://github.com/romeo-golf-software/dictation-releases/releases</sparkle:fullReleaseNotesLink>
-            <enclosure url="https://github.com/romeo-golf-software/dictation-releases/releases/download/v0.17.11/SpkDraft-0.17.11.dmg" length="26841126" type="application/octet-stream" sparkle:edSignature="XdEZmlKdFIVbwH4d5aZiUaxZFd8seq9S1ttsOdO6PHS1aPGtbLwJzh2FR3Sg6w5rHLCGJWw9KpHOJdx4FSF/Dg=="/>
+            <enclosure url="https://github.com/romeo-golf-software/dictation-releases/releases/download/v0.17.12/SpkDraft-0.17.12.dmg" length="26845445" type="application/octet-stream" sparkle:edSignature="Ty6UBjijSRyju9UcgUwWUrVG/rg2KhMZZnWHIhlhcYlVFccZFgthmP0x/1850IwRcHd0CXEbDHxe5fjL8ntICQ=="/>
         </item>
     </channel>
 </rss>
