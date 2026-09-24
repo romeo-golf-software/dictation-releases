@@ -3,20 +3,17 @@
     <channel>
         <title>SpkDraft</title>
         <item>
-            <title>0.18.0</title>
-            <pubDate>Wed, 23 Sep 2026 12:16:00 +0100</pubDate>
-            <sparkle:version>45</sparkle:version>
-            <sparkle:shortVersionString>0.18.0</sparkle:shortVersionString>
+            <title>0.18.1</title>
+            <pubDate>Thu, 24 Sep 2026 22:34:00 +0100</pubDate>
+            <sparkle:version>46</sparkle:version>
+            <sparkle:shortVersionString>0.18.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <description><![CDATA[
-                <p><b>A fortnight of real dictation, put right.</b> The postcode rule no longer reaches across words, so "on 15 at" stays prose instead of becoming ON1 5AT. Spoken amounts land as amounts: "£one 52" is £1.52, "Fable 5.one" is 5.1, and a dictionary word for a bare digit leaves prices and version numbers alone. A spoken email address is joined and lowercased into one address. Every change was checked against 5,731 recorded dictations first.</p>
-                <p><b>Your answer stays put.</b> Draft and Prompt keep the Yes, No or Correct you opened with, which the rewrite sometimes dropped. And the model now waits half an hour before unloading, so Draft after a pause answers straight away.</p>
-                <p><b>Statistics.</b> A new row in Settings shows this week beside all time: dictations, words, your longest dictation, words per minute and what the same words would have cost to type. Counted from the records on this Mac, nowhere else.</p>
-                <p><b>PyCharm by ear.</b> The Coding dictionary catches the transcriber's spellings of it, "pie charm" and stranger. A pie chart stays a pie chart.</p>
-                <p><b>Missed a release?</b> 0.17.12 gave Clean a second chance at pause-broken sentences, added a Permaculture dictionary, and turned update checks on by default. 0.17.11 taught the cleanup guard that "three" is the word you said when the transcriber wrote "3", and grew the Landlord and Business dictionaries. 0.17.10 drew the off switches in Settings into the same cyan-to-pink ramp as the on ones. Every release, in order: github.com/romeo-golf-software/dictation-releases/releases.</p>
+                <p><b>Words per minute, for everyone.</b> If you never switched on Record dictations, the Statistics row showed a blank where your speaking rate should be. Dictations from before 0.18.0 kept their time but not their words, and those wordless minutes were pulling the rate towards nothing. They still count as time spent speaking, but the rate and the typing comparison now use only the dictations whose words are known. Your figure appears after about a minute of dictation on this version.</p>
+                <p><b>Missed a release?</b> 0.18.0 put right a fortnight of real dictation (postcodes, spoken amounts, email addresses), kept your opening Yes or No in Draft and Prompt, and added the Statistics row. 0.17.12 gave Clean a second chance at pause-broken sentences, added a Permaculture dictionary, and turned update checks on by default. 0.17.11 taught the cleanup guard that "three" is the word you said when the transcriber wrote "3", and grew the Landlord and Business dictionaries. Every release, in order: github.com/romeo-golf-software/dictation-releases/releases.</p>
             ]]></description>
             <sparkle:fullReleaseNotesLink>https://github.com/romeo-golf-software/dictation-releases/releases</sparkle:fullReleaseNotesLink>
-            <enclosure url="https://github.com/romeo-golf-software/dictation-releases/releases/download/v0.18.0/SpkDraft-0.18.0.dmg" length="26266283" type="application/octet-stream" sparkle:edSignature="LCu5y/4MegBjOVFQfNGn1qrSMvV6PM6dSpTsoT5SX12Yh9VZ0ZpSQWNKGW1NNHvXLYD6Qu+nf1iK/89ntGbPDg=="/>
+            <enclosure url="https://github.com/romeo-golf-software/dictation-releases/releases/download/v0.18.1/SpkDraft-0.18.1.dmg" length="26267694" type="application/octet-stream" sparkle:edSignature="8XNGMr+1lffKllLfOMOBl7NLKBpSW9Oj8HJMdKhFyovlUIK0C4lVD1KpvzIrizs5CrIIu43bEXzlPQQLX0IECA=="/>
         </item>
     </channel>
 </rss>
